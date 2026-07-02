@@ -2,5 +2,15 @@
   "schemaVersion": 1,
   "name": "Vertex Extensions Registry",
   "updated": "2026-07-02",
-  "extensions": []
+  "extensions": [
+    {
+      "id": "ublock-origin",
+      "name": "uBlock Origin",
+      "version": "1.0.0",
+      "description": "Efficient content blocker: ads, trackers and annoyances (uBlock Origin-compatible filter lists).",
+      "author": "Raymond Hill (gorhill) & uAssets",
+      "type": "adblocker",
+      "manifest": "extensions/ublock-origin/manifest.json"
+    }
+  ]
 }

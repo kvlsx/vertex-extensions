@@ -44,6 +44,17 @@ Flow:
 }
 ```
 
+## Plugin types
+
+Plugins are universal, data-only manifests. The app provides a capability per
+`type`; no executable code is fetched from this repo.
+
+- **`service-pack`** — adds web services to the hub (see below).
+- **`adblocker`** — activates the app's built-in content-blocker capability using
+  the filter list URLs from the manifest. The blocker engine ships with the app
+  but stays idle until such a plugin is installed and enabled (nothing is
+  preloaded). Example: [`extensions/ublock-origin/manifest.json`](extensions/ublock-origin/manifest.json).
+
 ## Manifest format (`service-pack`)
 
 ```json

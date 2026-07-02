@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://raw.githubusercontent.com/kvlsx/vertex-extensions/main/schema/manifest.schema.json",
   "title": "Vertex Extension Manifest",
-  "description": "A Vertex extension is data-only (no executable code). Currently a 'service-pack' that adds services to the hub.",
+  "description": "Vertex plugins are data-only manifests. The app provides capabilities per 'type'; no executable code is fetched. Supported types: 'service-pack' (adds services) and 'adblocker' (activates the built-in content-blocker capability with the given filter lists).",
   "type": "object",
   "required": ["id", "name", "version", "type"],
   "properties": {
@@ -11,9 +11,12 @@
     "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
     "description": { "type": "string" },
     "author": { "type": "string" },
-    "type": { "type": "string", "enum": ["service-pack"] },
+    "homepage": { "type": "string" },
+    "type": { "type": "string", "enum": ["service-pack", "adblocker"] },
+
     "services": {
       "type": "array",
+      "description": "For type 'service-pack': services to add to the hub.",
       "items": {
         "type": "object",
         "required": ["type", "name", "url"],
@@ -24,6 +27,27 @@
           "icon": { "type": "string" },
           "color": { "type": "string", "pattern": "^#[0-9a-fA-F]{3,8}$" }
         }
+      }
+    },
+
+    "engine": { "type": "string", "description": "For type 'adblocker': capability engine provided by the app (e.g. 'ghostery')." },
+    "lists": {
+      "type": "object",
+      "description": "For type 'adblocker': filter list URLs by category.",
+      "properties": {
+        "ads": { "type": "array", "items": { "type": "string", "pattern": "^https?://" } },
+        "tracking": { "type": "array", "items": { "type": "string", "pattern": "^https?://" } },
+        "annoyances": { "type": "array", "items": { "type": "string", "pattern": "^https?://" } }
+      }
+    },
+    "defaults": {
+      "type": "object",
+      "description": "For type 'adblocker': default option toggles.",
+      "properties": {
+        "ads": { "type": "boolean" },
+        "tracking": { "type": "boolean" },
+        "annoyances": { "type": "boolean" },
+        "cosmetic": { "type": "boolean" }
       }
     }
   }
