@@ -1,0 +1,10 @@
+{
+  "id": "foxyproxy",
+  "name": "FoxyProxy",
+  "version": "1.0.0",
+  "description": "Proxy manager. Route all Vertex services through an HTTP or SOCKS5 proxy (with optional authentication).",
+  "author": "FoxyProxy",
+  "homepage": "https://getfoxyproxy.org",
+  "type": "proxy",
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=getfoxyproxy.org"
+}

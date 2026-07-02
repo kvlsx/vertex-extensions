@@ -62,6 +62,16 @@
       "type": "service-pack",
       "manifest": "extensions/google-translate/manifest.json",
       "icon": "https://www.google.com/s2/favicons?sz=64&domain=translate.google.com"
+    },
+    {
+      "id": "foxyproxy",
+      "name": "FoxyProxy",
+      "version": "1.0.0",
+      "description": "Proxy manager (HTTP / SOCKS5) for all services.",
+      "author": "FoxyProxy",
+      "type": "proxy",
+      "manifest": "extensions/foxyproxy/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=getfoxyproxy.org"
     }
   ]
 }
