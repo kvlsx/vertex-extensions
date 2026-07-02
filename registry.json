@@ -1,25 +1,6 @@
 {
   "schemaVersion": 1,
   "name": "Vertex Extensions Registry",
-  "updated": "2026-07-01",
-  "extensions": [
-    {
-      "id": "productivity-pack",
-      "name": "Productivity Pack",
-      "version": "1.0.0",
-      "description": "Adds popular project & task management services (ClickUp, Asana, Linear, Basecamp).",
-      "author": "kvls",
-      "type": "service-pack",
-      "manifest": "extensions/productivity-pack/manifest.json"
-    },
-    {
-      "id": "extra-messengers",
-      "name": "Extra Messengers",
-      "version": "1.0.0",
-      "description": "Additional messengers not in the default catalog (Google Messages, Wire, ICQ).",
-      "author": "kvls",
-      "type": "service-pack",
-      "manifest": "extensions/extra-messengers/manifest.json"
-    }
-  ]
+  "updated": "2026-07-02",
+  "extensions": []
 }
