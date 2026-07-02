@@ -7,10 +7,55 @@
       "id": "ublock-origin",
       "name": "uBlock Origin",
       "version": "1.1.0",
-      "description": "Efficient content blocker: ads, trackers and annoyances (uBlock Origin-compatible filter lists).",
+      "description": "Efficient content blocker: ads, trackers and annoyances (default uBlock Origin filter set).",
       "author": "Raymond Hill (gorhill) & uAssets",
       "type": "adblocker",
       "manifest": "extensions/ublock-origin/manifest.json"
+    },
+    {
+      "id": "idcac",
+      "name": "I Still Don't Care About Cookies",
+      "version": "1.0.0",
+      "description": "Automatically hides cookie consent banners.",
+      "author": "OhMyGuus / Daniel Kladnik",
+      "type": "adblocker",
+      "manifest": "extensions/idcac/manifest.json"
+    },
+    {
+      "id": "privacy-badger",
+      "name": "Privacy Badger",
+      "version": "1.0.0",
+      "description": "Filter-list based tracker protection (Privacy Badger-style).",
+      "author": "EFF (concept) · AdGuard / EasyPrivacy",
+      "type": "adblocker",
+      "manifest": "extensions/privacy-badger/manifest.json"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "version": "1.0.0",
+      "description": "Open-source password manager (web vault).",
+      "author": "Bitwarden Inc.",
+      "type": "service-pack",
+      "manifest": "extensions/bitwarden/manifest.json"
+    },
+    {
+      "id": "passbolt",
+      "name": "Passbolt",
+      "version": "1.0.0",
+      "description": "Open-source team password manager.",
+      "author": "Passbolt SA",
+      "type": "service-pack",
+      "manifest": "extensions/passbolt/manifest.json"
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Translate",
+      "version": "1.0.0",
+      "description": "Translate text and pages.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/google-translate/manifest.json"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "id": "passbolt",
+  "name": "Passbolt",
+  "version": "1.0.0",
+  "description": "Open-source team password manager. Adds Passbolt as a service (change the URL to your own instance if self-hosted).",
+  "author": "Passbolt SA",
+  "homepage": "https://www.passbolt.com",
+  "type": "service-pack",
+  "services": [
+    { "type": "passbolt", "name": "Passbolt", "url": "https://www.passbolt.com", "icon": "🔑", "color": "#d40101" }
+  ]
+}

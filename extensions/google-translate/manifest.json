@@ -1,0 +1,12 @@
+{
+  "id": "google-translate",
+  "name": "Google Translate",
+  "version": "1.0.0",
+  "description": "Translate text and pages. Useful when a messenger lacks the language you need.",
+  "author": "Google",
+  "homepage": "https://translate.google.com",
+  "type": "service-pack",
+  "services": [
+    { "type": "gtranslate", "name": "Translate", "url": "https://translate.google.com", "icon": "🌐", "color": "#4285f4" }
+  ]
+}

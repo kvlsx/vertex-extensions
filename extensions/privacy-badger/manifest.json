@@ -1,0 +1,18 @@
+{
+  "id": "privacy-badger",
+  "name": "Privacy Badger",
+  "version": "1.0.0",
+  "description": "Blocks trackers and tracking cookies. Filter-list based tracker protection (Privacy Badger-style) using AdGuard Tracking Protection, EasyPrivacy and Peter Lowe's list.",
+  "author": "EFF (concept) · AdGuard / EasyPrivacy lists",
+  "homepage": "https://github.com/efforg/privacybadger",
+  "type": "adblocker",
+  "engine": "ghostery",
+  "lists": {
+    "tracking": [
+      "https://filters.adtidy.org/extension/ublock/filters/3.txt",
+      "https://easylist.to/easylist/easyprivacy.txt",
+      "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext"
+    ]
+  },
+  "defaults": { "ads": false, "tracking": true, "annoyances": false, "cosmetic": false }
+}

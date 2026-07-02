@@ -1,0 +1,12 @@
+{
+  "id": "bitwarden",
+  "name": "Bitwarden",
+  "version": "1.0.0",
+  "description": "Open-source password manager. Adds the Bitwarden web vault as a service.",
+  "author": "Bitwarden Inc.",
+  "homepage": "https://bitwarden.com",
+  "type": "service-pack",
+  "services": [
+    { "type": "bitwarden", "name": "Bitwarden", "url": "https://vault.bitwarden.com", "icon": "🔐", "color": "#175ddc" }
+  ]
+}

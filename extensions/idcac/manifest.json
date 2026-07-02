@@ -1,0 +1,17 @@
+{
+  "id": "idcac",
+  "name": "I Still Don't Care About Cookies",
+  "version": "1.0.0",
+  "description": "Automatically hides cookie consent banners using the 'I don't care about cookies' filter lists.",
+  "author": "OhMyGuus / Daniel Kladnik",
+  "homepage": "https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies",
+  "type": "adblocker",
+  "engine": "ghostery",
+  "lists": {
+    "annoyances": [
+      "https://www.i-dont-care-about-cookies.eu/abp/",
+      "https://secure.fanboy.co.nz/fanboy-cookiemonster.txt"
+    ]
+  },
+  "defaults": { "ads": false, "tracking": false, "annoyances": true, "cosmetic": true }
+}
