@@ -7,6 +7,13 @@
   "homepage": "https://translate.google.com",
   "type": "service-pack",
   "services": [
-    { "type": "gtranslate", "name": "Translate", "url": "https://translate.google.com", "icon": "🌐", "color": "#4285f4" }
-  ]
+    {
+      "type": "gtranslate",
+      "name": "Translate",
+      "url": "https://translate.google.com",
+      "icon": "🌐",
+      "color": "#4285f4"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=translate.google.com"
 }

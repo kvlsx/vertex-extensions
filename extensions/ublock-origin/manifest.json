@@ -27,5 +27,11 @@
       "https://ublockorigin.github.io/uAssets/filters/annoyances-others.txt"
     ]
   },
-  "defaults": { "ads": true, "tracking": true, "annoyances": false, "cosmetic": true }
+  "defaults": {
+    "ads": true,
+    "tracking": true,
+    "annoyances": false,
+    "cosmetic": true
+  },
+  "icon": "https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/icon_128.png"
 }

@@ -14,5 +14,11 @@
       "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext"
     ]
   },
-  "defaults": { "ads": false, "tracking": true, "annoyances": false, "cosmetic": false }
+  "defaults": {
+    "ads": false,
+    "tracking": true,
+    "annoyances": false,
+    "cosmetic": false
+  },
+  "icon": "https://raw.githubusercontent.com/EFForg/privacybadger/master/src/icons/badger-128.png"
 }

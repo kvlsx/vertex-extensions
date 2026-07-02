@@ -10,7 +10,8 @@
       "description": "Efficient content blocker: ads, trackers and annoyances (default uBlock Origin filter set).",
       "author": "Raymond Hill (gorhill) & uAssets",
       "type": "adblocker",
-      "manifest": "extensions/ublock-origin/manifest.json"
+      "manifest": "extensions/ublock-origin/manifest.json",
+      "icon": "https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/icon_128.png"
     },
     {
       "id": "idcac",
@@ -19,7 +20,8 @@
       "description": "Automatically hides cookie consent banners.",
       "author": "OhMyGuus / Daniel Kladnik",
       "type": "adblocker",
-      "manifest": "extensions/idcac/manifest.json"
+      "manifest": "extensions/idcac/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=i-dont-care-about-cookies.eu"
     },
     {
       "id": "privacy-badger",
@@ -28,7 +30,8 @@
       "description": "Filter-list based tracker protection (Privacy Badger-style).",
       "author": "EFF (concept) · AdGuard / EasyPrivacy",
       "type": "adblocker",
-      "manifest": "extensions/privacy-badger/manifest.json"
+      "manifest": "extensions/privacy-badger/manifest.json",
+      "icon": "https://raw.githubusercontent.com/EFForg/privacybadger/master/src/icons/badger-128.png"
     },
     {
       "id": "bitwarden",
@@ -37,7 +40,8 @@
       "description": "Open-source password manager (web vault).",
       "author": "Bitwarden Inc.",
       "type": "service-pack",
-      "manifest": "extensions/bitwarden/manifest.json"
+      "manifest": "extensions/bitwarden/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=bitwarden.com"
     },
     {
       "id": "passbolt",
@@ -46,7 +50,8 @@
       "description": "Open-source team password manager.",
       "author": "Passbolt SA",
       "type": "service-pack",
-      "manifest": "extensions/passbolt/manifest.json"
+      "manifest": "extensions/passbolt/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=passbolt.com"
     },
     {
       "id": "google-translate",
@@ -55,7 +60,8 @@
       "description": "Translate text and pages.",
       "author": "Google",
       "type": "service-pack",
-      "manifest": "extensions/google-translate/manifest.json"
+      "manifest": "extensions/google-translate/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=translate.google.com"
     }
   ]
 }

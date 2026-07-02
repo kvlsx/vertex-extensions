@@ -7,6 +7,13 @@
   "homepage": "https://bitwarden.com",
   "type": "service-pack",
   "services": [
-    { "type": "bitwarden", "name": "Bitwarden", "url": "https://vault.bitwarden.com", "icon": "🔐", "color": "#175ddc" }
-  ]
+    {
+      "type": "bitwarden",
+      "name": "Bitwarden",
+      "url": "https://vault.bitwarden.com",
+      "icon": "🔐",
+      "color": "#175ddc"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=bitwarden.com"
 }

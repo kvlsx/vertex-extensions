@@ -7,6 +7,13 @@
   "homepage": "https://www.passbolt.com",
   "type": "service-pack",
   "services": [
-    { "type": "passbolt", "name": "Passbolt", "url": "https://www.passbolt.com", "icon": "🔑", "color": "#d40101" }
-  ]
+    {
+      "type": "passbolt",
+      "name": "Passbolt",
+      "url": "https://www.passbolt.com",
+      "icon": "🔑",
+      "color": "#d40101"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=passbolt.com"
 }
