@@ -1,0 +1,19 @@
+{
+  "id": "canva",
+  "name": "Canva",
+  "version": "1.0.0",
+  "description": "Canva graphic design as a service. Adds Canva as a service.",
+  "author": "Canva",
+  "homepage": "https://www.canva.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "icon": "🖌️",
+      "color": "#00c4cc"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=canva.com"
+}

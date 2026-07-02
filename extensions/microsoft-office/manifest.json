@@ -1,0 +1,19 @@
+{
+  "id": "microsoft-office",
+  "name": "Microsoft 365",
+  "version": "1.0.0",
+  "description": "Microsoft 365 / OneDrive web apps as a service. Adds Microsoft 365 as a service.",
+  "author": "Microsoft",
+  "homepage": "https://www.office.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "office365",
+      "name": "Microsoft 365",
+      "url": "https://www.office.com",
+      "icon": "📊",
+      "color": "#d83b01"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=office.com"
+}

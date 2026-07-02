@@ -1,0 +1,19 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "version": "1.0.0",
+  "description": "Figma design tool as a service. Adds Figma as a service.",
+  "author": "Figma",
+  "homepage": "https://www.figma.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "figma",
+      "name": "Figma",
+      "url": "https://www.figma.com/files",
+      "icon": "🎨",
+      "color": "#f24e1e"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=figma.com"
+}

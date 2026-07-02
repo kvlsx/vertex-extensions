@@ -1,0 +1,19 @@
+{
+  "id": "miro",
+  "name": "Miro",
+  "version": "1.0.0",
+  "description": "Miro online whiteboard as a service. Adds Miro as a service.",
+  "author": "Miro",
+  "homepage": "https://miro.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "miro",
+      "name": "Miro",
+      "url": "https://miro.com/app/dashboard/",
+      "icon": "🧩",
+      "color": "#ffd02f"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=miro.com"
+}

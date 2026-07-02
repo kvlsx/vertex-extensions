@@ -72,6 +72,216 @@
       "type": "proxy",
       "manifest": "extensions/foxyproxy/manifest.json",
       "icon": "https://www.google.com/s2/favicons?sz=64&domain=getfoxyproxy.org"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "version": "1.0.0",
+      "description": "OpenAI ChatGPT assistant as a service.",
+      "author": "OpenAI",
+      "type": "service-pack",
+      "manifest": "extensions/chatgpt/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com"
+    },
+    {
+      "id": "claude-ai",
+      "name": "Claude",
+      "version": "1.0.0",
+      "description": "Anthropic Claude AI assistant as a service.",
+      "author": "Anthropic",
+      "type": "service-pack",
+      "manifest": "extensions/claude-ai/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=claude.ai"
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "version": "1.0.0",
+      "description": "Google Gemini AI assistant as a service.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/gemini/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "version": "1.0.0",
+      "description": "Perplexity AI answer engine as a service.",
+      "author": "Perplexity AI",
+      "type": "service-pack",
+      "manifest": "extensions/perplexity/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=perplexity.ai"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "version": "1.0.0",
+      "description": "DeepSeek AI assistant as a service.",
+      "author": "DeepSeek",
+      "type": "service-pack",
+      "manifest": "extensions/deepseek/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=deepseek.com"
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "version": "1.0.0",
+      "description": "Google Drive cloud storage as a service.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/google-drive/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=drive.google.com"
+    },
+    {
+      "id": "google-docs",
+      "name": "Google Docs",
+      "version": "1.0.0",
+      "description": "Google Docs, Sheets and Slides as a service.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/google-docs/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=docs.google.com"
+    },
+    {
+      "id": "microsoft-office",
+      "name": "Microsoft 365",
+      "version": "1.0.0",
+      "description": "Microsoft 365 / OneDrive web apps as a service.",
+      "author": "Microsoft",
+      "type": "service-pack",
+      "manifest": "extensions/microsoft-office/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=office.com"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "version": "1.0.0",
+      "description": "Dropbox cloud storage as a service.",
+      "author": "Dropbox",
+      "type": "service-pack",
+      "manifest": "extensions/dropbox/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=dropbox.com"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "version": "1.0.0",
+      "description": "Zoom web client for meetings as a service.",
+      "author": "Zoom",
+      "type": "service-pack",
+      "manifest": "extensions/zoom/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=zoom.us"
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "version": "1.0.0",
+      "description": "Google Meet video calls as a service.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/google-meet/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=meet.google.com"
+    },
+    {
+      "id": "jitsi",
+      "name": "Jitsi Meet",
+      "version": "1.0.0",
+      "description": "Jitsi Meet open-source video conferencing as a service.",
+      "author": "Jitsi",
+      "type": "service-pack",
+      "manifest": "extensions/jitsi/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=jit.si"
+    },
+    {
+      "id": "google-keep",
+      "name": "Google Keep",
+      "version": "1.0.0",
+      "description": "Google Keep notes as a service.",
+      "author": "Google",
+      "type": "service-pack",
+      "manifest": "extensions/google-keep/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=keep.google.com"
+    },
+    {
+      "id": "ms-todo",
+      "name": "Microsoft To Do",
+      "version": "1.0.0",
+      "description": "Microsoft To Do tasks as a service.",
+      "author": "Microsoft",
+      "type": "service-pack",
+      "manifest": "extensions/ms-todo/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=to-do.office.com"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "version": "1.0.0",
+      "description": "ClickUp project management as a service.",
+      "author": "ClickUp",
+      "type": "service-pack",
+      "manifest": "extensions/clickup/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=clickup.com"
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "version": "1.0.0",
+      "description": "Asana project management as a service.",
+      "author": "Asana",
+      "type": "service-pack",
+      "manifest": "extensions/asana/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=asana.com"
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "version": "1.0.0",
+      "description": "Linear issue tracking as a service.",
+      "author": "Linear",
+      "type": "service-pack",
+      "manifest": "extensions/linear/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=linear.app"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "version": "1.0.0",
+      "description": "Figma design tool as a service.",
+      "author": "Figma",
+      "type": "service-pack",
+      "manifest": "extensions/figma/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=figma.com"
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "version": "1.0.0",
+      "description": "Miro online whiteboard as a service.",
+      "author": "Miro",
+      "type": "service-pack",
+      "manifest": "extensions/miro/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=miro.com"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "version": "1.0.0",
+      "description": "Canva graphic design as a service.",
+      "author": "Canva",
+      "type": "service-pack",
+      "manifest": "extensions/canva/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=canva.com"
+    },
+    {
+      "id": "quillbot",
+      "name": "QuillBot",
+      "version": "1.0.0",
+      "description": "QuillBot AI writing / paraphrasing web app as a service.",
+      "author": "QuillBot",
+      "type": "service-pack",
+      "manifest": "extensions/quillbot/manifest.json",
+      "icon": "https://www.google.com/s2/favicons?sz=64&domain=quillbot.com"
     }
   ]
 }

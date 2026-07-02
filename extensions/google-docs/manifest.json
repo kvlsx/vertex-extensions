@@ -1,0 +1,19 @@
+{
+  "id": "google-docs",
+  "name": "Google Docs",
+  "version": "1.0.0",
+  "description": "Google Docs, Sheets and Slides as a service. Adds Google Docs as a service.",
+  "author": "Google",
+  "homepage": "https://docs.google.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "gdocs",
+      "name": "Google Docs",
+      "url": "https://docs.google.com",
+      "icon": "📄",
+      "color": "#4285f4"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=docs.google.com"
+}

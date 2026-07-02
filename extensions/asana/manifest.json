@@ -1,0 +1,19 @@
+{
+  "id": "asana",
+  "name": "Asana",
+  "version": "1.0.0",
+  "description": "Asana project management as a service. Adds Asana as a service.",
+  "author": "Asana",
+  "homepage": "https://asana.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "asana",
+      "name": "Asana",
+      "url": "https://app.asana.com",
+      "icon": "🎯",
+      "color": "#f06a6a"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=asana.com"
+}

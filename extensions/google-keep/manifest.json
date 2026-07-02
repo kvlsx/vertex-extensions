@@ -1,0 +1,19 @@
+{
+  "id": "google-keep",
+  "name": "Google Keep",
+  "version": "1.0.0",
+  "description": "Google Keep notes as a service. Adds Google Keep as a service.",
+  "author": "Google",
+  "homepage": "https://keep.google.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "gkeep",
+      "name": "Google Keep",
+      "url": "https://keep.google.com",
+      "icon": "🗒️",
+      "color": "#fbbc04"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=keep.google.com"
+}

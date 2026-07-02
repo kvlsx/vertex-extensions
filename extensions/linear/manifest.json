@@ -1,0 +1,19 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "version": "1.0.0",
+  "description": "Linear issue tracking as a service. Adds Linear as a service.",
+  "author": "Linear",
+  "homepage": "https://linear.app",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "linear",
+      "name": "Linear",
+      "url": "https://linear.app",
+      "icon": "📐",
+      "color": "#5e6ad2"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=linear.app"
+}

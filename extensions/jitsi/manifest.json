@@ -1,0 +1,19 @@
+{
+  "id": "jitsi",
+  "name": "Jitsi Meet",
+  "version": "1.0.0",
+  "description": "Jitsi Meet open-source video conferencing as a service. Adds Jitsi Meet as a service.",
+  "author": "Jitsi",
+  "homepage": "https://jitsi.org",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "jitsi",
+      "name": "Jitsi Meet",
+      "url": "https://meet.jit.si",
+      "icon": "🗣️",
+      "color": "#1d76ba"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=jit.si"
+}

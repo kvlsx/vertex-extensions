@@ -1,0 +1,19 @@
+{
+  "id": "dropbox",
+  "name": "Dropbox",
+  "version": "1.0.0",
+  "description": "Dropbox cloud storage as a service. Adds Dropbox as a service.",
+  "author": "Dropbox",
+  "homepage": "https://www.dropbox.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "dropbox",
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/home",
+      "icon": "📦",
+      "color": "#0061ff"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=dropbox.com"
+}

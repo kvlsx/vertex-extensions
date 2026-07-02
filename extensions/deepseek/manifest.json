@@ -1,0 +1,19 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "version": "1.0.0",
+  "description": "DeepSeek AI assistant as a service. Adds DeepSeek as a service.",
+  "author": "DeepSeek",
+  "homepage": "https://chat.deepseek.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "icon": "🐋",
+      "color": "#4d6bfe"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=deepseek.com"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "google-drive",
+  "name": "Google Drive",
+  "version": "1.0.0",
+  "description": "Google Drive cloud storage as a service. Adds Google Drive as a service.",
+  "author": "Google",
+  "homepage": "https://drive.google.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "gdrive",
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "icon": "📁",
+      "color": "#1fa463"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=drive.google.com"
+}

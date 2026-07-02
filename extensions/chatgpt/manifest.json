@@ -1,0 +1,19 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "version": "1.0.0",
+  "description": "OpenAI ChatGPT assistant as a service. Adds ChatGPT as a service.",
+  "author": "OpenAI",
+  "homepage": "https://chatgpt.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "icon": "🤖",
+      "color": "#10a37f"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=chatgpt.com"
+}

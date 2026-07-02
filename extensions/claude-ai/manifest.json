@@ -1,0 +1,19 @@
+{
+  "id": "claude-ai",
+  "name": "Claude",
+  "version": "1.0.0",
+  "description": "Anthropic Claude AI assistant as a service. Adds Claude as a service.",
+  "author": "Anthropic",
+  "homepage": "https://claude.ai",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "icon": "🧠",
+      "color": "#d97757"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=claude.ai"
+}

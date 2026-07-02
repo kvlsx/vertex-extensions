@@ -1,0 +1,19 @@
+{
+  "id": "clickup",
+  "name": "ClickUp",
+  "version": "1.0.0",
+  "description": "ClickUp project management as a service. Adds ClickUp as a service.",
+  "author": "ClickUp",
+  "homepage": "https://clickup.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "clickup",
+      "name": "ClickUp",
+      "url": "https://app.clickup.com",
+      "icon": "🚀",
+      "color": "#7b68ee"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=clickup.com"
+}

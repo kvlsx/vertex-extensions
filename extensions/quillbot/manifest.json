@@ -1,0 +1,19 @@
+{
+  "id": "quillbot",
+  "name": "QuillBot",
+  "version": "1.0.0",
+  "description": "QuillBot AI writing / paraphrasing web app as a service. Adds QuillBot as a service.",
+  "author": "QuillBot",
+  "homepage": "https://quillbot.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "quillbot",
+      "name": "QuillBot",
+      "url": "https://quillbot.com",
+      "icon": "✍️",
+      "color": "#2ecaa0"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=quillbot.com"
+}

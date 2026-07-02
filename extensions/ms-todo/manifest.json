@@ -1,0 +1,19 @@
+{
+  "id": "ms-todo",
+  "name": "Microsoft To Do",
+  "version": "1.0.0",
+  "description": "Microsoft To Do tasks as a service. Adds Microsoft To Do as a service.",
+  "author": "Microsoft",
+  "homepage": "https://to-do.office.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "mstodo",
+      "name": "Microsoft To Do",
+      "url": "https://to-do.office.com/tasks/",
+      "icon": "✅",
+      "color": "#3d5afe"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=to-do.office.com"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gemini",
+  "name": "Google Gemini",
+  "version": "1.0.0",
+  "description": "Google Gemini AI assistant as a service. Adds Google Gemini as a service.",
+  "author": "Google",
+  "homepage": "https://gemini.google.com",
+  "type": "service-pack",
+  "services": [
+    {
+      "type": "gemini",
+      "name": "Google Gemini",
+      "url": "https://gemini.google.com",
+      "icon": "✨",
+      "color": "#1a73e8"
+    }
+  ],
+  "icon": "https://www.google.com/s2/favicons?sz=64&domain=gemini.google.com"
+}
