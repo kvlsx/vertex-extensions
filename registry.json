@@ -6,7 +6,7 @@
     {
       "id": "ublock-origin",
       "name": "uBlock Origin",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Efficient content blocker: ads, trackers and annoyances (uBlock Origin-compatible filter lists).",
       "author": "Raymond Hill (gorhill) & uAssets",
       "type": "adblocker",
